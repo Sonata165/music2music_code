@@ -2,7 +2,7 @@ Being updated ...
 
 # Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization
 
-This is the code for experiments in the paper *Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization*. 
+This is the official project repository and code implementation of the NeurIPS 2025 paper *Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization*. 
 
 ## Structure
 
