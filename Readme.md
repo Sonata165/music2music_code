@@ -101,6 +101,19 @@ Use below command to arrange a drum track for a song:
 
 To directly use our pretrained model for inference, see `tutorial.ipynb` for details.
 
+## Models
+
+Here are models on huggingface:
+|Model|Link|
+|----|----|
+|Pre-trained unconditional generation|[LongshenOu/m2m_pt](https://huggingface.co/LongshenOu/m2m_pt)|
+|Band Arrangement Finetune | [LongshenOu/m2m_arranger](https://huggingface.co/LongshenOu/m2m_arranger) |
+|Piano Reduction Finetune | [LongshenOu/m2m_pianist_dur](https://huggingface.co/LongshenOu/m2m_pianist_dur) |
+|Drum Arrangement Finetune | [LongshenOu/m2m_drummer](https://huggingface.co/LongshenOu/m2m_drummer) |
+
+
+See usage in `tutorial.ipynb`.
+
 
 ## Mapping from token to represented value
 As in the appendix, you can find the mapping from token to their corresponding representing values, for time signature and tempo tokens, in `ts_dict.yaml` and `tempo_dict.yaml`, under the `utils_midi` directory.
