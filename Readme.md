@@ -2,7 +2,7 @@
 
 This is the code for experiments in the paper [*Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization*](https://arxiv.org/abs/2408.15176). 
 
-[ [Paper](https://arxiv.org/abs/2408.15176) | [REMI-z MIDI Tookit](https://github.com/Sonata165/REMI-z) | [Author](https://www.oulongshen.xyz/) ]
+[ [Demo](https://www.oulongshen.xyz/automatic_arrangement) | [Paper](https://arxiv.org/abs/2408.15176) | [REMI-z MIDI Tookit](https://github.com/Sonata165/REMI-z) | [Author](https://www.oulongshen.xyz/) ]
 
 ## Structure
 
@@ -119,3 +119,12 @@ See usage in `tutorial.ipynb`.
 
 ## Mapping from token to represented value
 As in the appendix, you can find the mapping from token to their corresponding representing values, for time signature and tempo tokens, in `ts_dict.yaml` and `tempo_dict.yaml`, under the `utils_midi` directory.
+
+## Citation
+
+    @inproceedings{ou2025unifying,
+        title     = {Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization},
+        author    = {Ou, Longshen and Zhao, Jingwei and Wang, Ziyu and Xia, Gus and Liang, Qihao and Hopkins, Torin and Wang, Ye},
+        booktitle = {Proceedings of the 39th Conference on Neural Information Processing Systems (NeurIPS)},
+        year      = {2025}
+    }
