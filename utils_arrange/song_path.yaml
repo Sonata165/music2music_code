@@ -1,0 +1,41 @@
+caihong: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/caihong/caihong.mid
+begin_again: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/begin_again/begin_again_new.mid
+never_gonna: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/never_gonna/nggyu_norm.mid
+as_long: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/alaylm/alaylm_norm.mid
+butterfly: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/butterfly/butterfly.mid
+first_love: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/first_love/first_love.mid
+mengdeguangdian: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/mengdeguangdian/mengdeguangdian_nodrum.mid
+fly_me: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/fly_me/fly_me_to_the_moon.mid
+buweishei: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/buweishei/buweishei.mid
+wonderwall: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/wonderwall/wonderwall.mid
+under_the_sea: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/under_the_sea/under_the_sea_full.mid
+
+drum_test1: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/slakh/demo drum/all_src1876.mid
+drum_test2: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/slakh/demo drum/all_src1877.mid
+drum_test3: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/slakh/demo drum/all_src1881.mid
+drum_test4: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/slakh/demo drum/all_src1882.mid
+drum_test5: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/slakh/demo drum/all_src1887.mid
+
+piano_test1: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/slakh/demo piano/all_src1876.mid
+piano_test2: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/slakh/demo piano/all_src1877.mid
+piano_test3: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/slakh/demo piano/all_src1880.mid
+piano_test4: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/slakh/demo piano/all_src1884.mid
+piano_test5: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/slakh/demo piano/all_src1889.mid
+
+q_drum_1: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/1876.mid
+q_drum_2: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/1877.mid
+q_drum_3: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/1881.mid
+q_drum_4: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/1882.mid
+q_drum_5: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/1887.mid
+
+q_piano_1: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/1876.mid
+q_piano_2: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/1877.mid
+q_piano_3: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/1880.mid
+q_piano_4: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/1884.mid
+q_piano_5: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/1889.mid
+
+q_butterfly: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/butterfly.mid
+q_buweishei: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/buweishei.mid
+q_first_love: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/first_love.mid
+q_fly_me: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/fly_me_to_the_moon.mid
+q_rainbow: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/songs_quantized/rainbow.mid

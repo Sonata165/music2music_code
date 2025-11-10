@@ -1,0 +1,9 @@
+C:maj
+C:m
+C:aug
+C:dim
+C:7
+C:maj7
+C:m7
+C:m7b5
+N:N

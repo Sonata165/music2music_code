@@ -1,0 +1,41 @@
+# Voice, Texture, Augment, 3-task
+task: recon # arrange | recon 
+
+# Data
+# data_root: /data2/longshen/Datasets/slakh2100_flac_redux/slakh_2bar_lpad0_hop1_normalized
+data_root: /data2/longshen/Datasets/slakh2100_flac_redux/slakh_2bar_lpad0_hop1_norm_quant_nost_ts44_nodr
+dataset_class: InstPredDataset
+inst_aug: False
+max_len: 768
+
+# Trainer
+result_root: /data2/longshen/Datasets/slakh2100_flac_redux/m2m_results
+out_dir: 2bar_inst_pred/probing_pool_new/random/bs64_lr1e-4_ep10_linear
+n_epoch: 10 # 20 # 50
+lr: 0.0001
+bs: 64
+bs_test: 3
+loss_type: full_seq # full_seq | tgt_seq
+warmup_steps: 500
+weight_decay: 0.01
+val_check_interval: 0.25
+n_gen_val_per_batch: 2
+fast_dev_run: False # 5
+val_gen_every_n_steps: 100
+freeze_transformer: True
+early_stop_patience: 8
+lr_anneal_patience: 4
+
+# Model
+pt_ckpt: LongshenOu/m2m_pt
+tokenizer_fp: LongshenOu/m2m_pt
+lit_model_class: LitM2mInstPredPool
+random_init: True
+
+# Infer
+infer_exp_name: recon # recon | rand_inst
+infer_with: mini_valid
+infer_inp_fn: ${infer_with}.txt
+infer_out_fn: out_${infer_with}_${infer_exp_name}.txt
+eval_out_fn: eval_${infer_with}_${infer_exp_name}.txt
+

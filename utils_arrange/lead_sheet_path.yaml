@@ -1,0 +1,11 @@
+caihong_mini:
+  melody: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/caihong/caihong_melody_mini.txt
+  chord: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/caihong/caihong_chord_mini.txt
+caihong: 
+  melody: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/caihong/caihong_melody.txt
+  chord: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/caihong/caihong_chord.txt
+begin_again: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/begin_again/begin_again_new.mid
+never_gonna: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/never_gonna/nggyu_norm.mid
+as_long: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/alaylm/alaylm_norm.mid
+butterfly: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/butterfly/butterfly.mid
+first_love: /data2/longshen/Datasets/slakh2100_flac_redux/musecoco_data/infer_input/full_song/first_love/first_love.mid

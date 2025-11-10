@@ -1,0 +1,272 @@
+{
+    "0": {
+        "instrument_type": "Drums",
+        "program_numbers": [
+            129
+        ]
+    },
+    "1": {
+        "instrument_type": "Acoustic Piano",
+        "program_numbers": [
+            0,
+            1,
+            2,
+            4,
+            7
+        ]
+    },
+    "2": {
+        "instrument_type": "Electric Piano",
+        "program_numbers": [
+            0,
+            3,
+            5,
+            6,
+            8
+        ]
+    },
+    "3": {
+        "instrument_type": "Chromatic Percussion",
+        "program_numbers": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+        ]
+    },
+    "4": {
+        "instrument_type": "Organ",
+        "program_numbers": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+        ]
+    },
+    "5": {
+        "instrument_type": "Acoustic Guitar",
+        "program_numbers": [
+            25,
+            26
+        ]
+    },
+    "6": {
+        "instrument_type": "Clean Electric Guitar",
+        "program_numbers": [
+            27,
+            28,
+            29,
+            32
+        ]
+    },
+    "7": {
+        "instrument_type": "Distorted Electric Guitar",
+        "program_numbers": [
+            30,
+            31
+        ]
+    },
+    "8": {
+        "instrument_type": "Acoustic Bass",
+        "program_numbers": [
+            33
+        ]
+    },
+    "9": {
+        "instrument_type": "Electric Bass",
+        "program_numbers": [
+            34,
+            35,
+            36,
+            37,
+            38
+        ]
+    },
+    "10": {
+        "instrument_type": "Violin",
+        "program_numbers": [
+            41
+        ]
+    },
+    "11": {
+        "instrument_type": "Viola",
+        "program_numbers": [
+            42
+        ]
+    },
+    "12": {
+        "instrument_type": "Cello",
+        "program_numbers": [
+            43
+        ]
+    },
+    "13": {
+        "instrument_type": "Contrabass",
+        "program_numbers": [
+            44
+        ]
+    },
+    "14": {
+        "instrument_type": "String Ensemble",
+        "program_numbers": [
+            45,
+            46,
+            49,
+            50
+        ]
+    },
+    "15": {
+        "instrument_type": "Orchestral Hit",
+        "program_numbers": [
+            56
+        ]
+    },
+    "16": {
+        "instrument_type": "Timpani",
+        "program_numbers": [
+            48
+        ]
+    },
+    "17": {
+        "instrument_type": "Orchestral Harp",
+        "program_numbers": [
+            47
+        ]
+    },
+    "18": {
+        "instrument_type": "Synth Strings",
+        "program_numbers": [
+            51,
+            52
+        ]
+    },
+    "19": {
+        "instrument_type": "Choir and Voice",
+        "program_numbers": [
+            53,
+            54,
+            55
+        ]
+    },
+    "20": {
+        "instrument_type": "Trumpet",
+        "program_numbers": [
+            57,
+            60
+        ]
+    },
+    "21": {
+        "instrument_type": "Trombone",
+        "program_numbers": [
+            58
+        ]
+    },
+    "22": {
+        "instrument_type": "Tuba",
+        "program_numbers": [
+            59
+        ]
+    },
+    "23": {
+        "instrument_type": "French Horn",
+        "program_numbers": [
+            61
+        ]
+    },
+    "24": {
+        "instrument_type": "Brass Section",
+        "program_numbers": [
+            62
+        ]
+    },
+    "25": {
+        "instrument_type": "Soprano/Alto Sax",
+        "program_numbers": [
+            65,
+            66
+        ]
+    },
+    "26": {
+        "instrument_type": "Tenor Sax",
+        "program_numbers": [
+            67
+        ]
+    },
+    "27": {
+        "instrument_type": "Baritone Sax",
+        "program_numbers": [
+            68
+        ]
+    },
+    "28": {
+        "instrument_type": "Oboe",
+        "program_numbers": [
+            69
+        ]
+    },
+    "29": {
+        "instrument_type": "English Horn",
+        "program_numbers": [
+            70
+        ]
+    },
+    "30": {
+        "instrument_type": "Bassoon",
+        "program_numbers": [
+            71
+        ]
+    },
+    "31": {
+        "instrument_type": "Clarinet",
+        "program_numbers": [
+            72
+        ]
+    },
+    "32": {
+        "instrument_type": "Pipe",
+        "program_numbers": [
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80
+        ]
+    },
+    "33": {
+        "instrument_type": "Synth Lead",
+        "program_numbers": [
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88
+        ]
+    },
+    "34": {
+        "instrument_type": "Synth Pad",
+        "program_numbers": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96
+        ]
+    }
+}

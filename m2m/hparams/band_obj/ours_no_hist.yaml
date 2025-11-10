@@ -1,0 +1,66 @@
+# Voice, Texture, Augment, 3-task
+task: recon # arrange | recon 
+
+no_hist: True
+
+# Data
+data_root: /data2/longshen/Datasets/slakh2100_flac_redux/metadata/segment_dataset_1bar_norm_withhist.json
+dataset_class: BandArrangeDataset
+content_consistent: False
+content_aug: True
+inst_aug: False
+max_len: 768
+include_ts_and_tempo: False
+dur_input: False
+
+# Trainer
+result_root: /data2/longshen/musecoco_data/results_new
+out_dir: band_obj/ours_no_hist/ep${n_epoch}_lr1e-4_linear
+n_epoch: 3 # 20 # 50
+lr: 0.0001
+lr_scheduler: linear # linear | anneal | none
+bs: 12
+bs_test: 64
+loss_type: tgt_seq # full_seq | tgt_seq
+warmup_steps: 500
+weight_decay: 0.01
+val_check_interval: 0.5
+n_gen_val_per_batch: 2
+fast_dev_run: False # 5
+early_stop_patience: 4
+lr_anneal_patience: 4
+val_gen_every_n_steps: 100 # Seems not being used
+val_gen_n_samples: 200 # Doing generation for X samples in each validation loop
+num_workers: 8
+monitor: valid_note_i_f1
+monitor_mode: max
+
+# Model
+pt_ckpt: LongshenOu/m2m_pt
+tokenizer_fp: LongshenOu/m2m_ft
+lit_model_class: LitM2mLM
+voice_control: True
+texture_control: False
+
+# Infer
+infer_exp_name: recon # recon | rand_inst
+infer_with: mini_valid
+infer_inp_fn: ${infer_with}.txt
+infer_out_fn: out_${infer_with}_${infer_exp_name}.txt
+eval_out_fn: eval_${infer_with}_${infer_exp_name}.txt
+
+# Reinst
+reinst_group: questionnaire
+song_name: q_first_love
+inst_set: strio
+model_name: elab_direct
+replace_inst: ['i-40', 'i-41', 'i-42'] # string trio
+# replace_inst: ['i-80', 'i-26', 'i-29', 'i-33'] # rock band
+# replace_inst: ['i-64', 'i-40', 'i-61', 'i-26', 'i-0', 'i-44', 'i-33'] # jazz band
+hist_autoregressive: True
+reinst_exp_name: ${song_name}_${model_name}_${inst_set}_k${top_k}p${top_p}t${temp}n${no_repeat_token}
+
+top_k: 10 # 50
+top_p: 1.0
+temp: 1.0
+no_repeat_token: 10 # Set to 0 to disable  ; 0 | 6 | 7 | 10

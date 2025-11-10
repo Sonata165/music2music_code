@@ -1,0 +1,55 @@
+# Voice, Texture, Augment, 3-task
+task: recon # arrange | recon 
+
+# Data
+data_root: /data2/longshen/Datasets/slakh2100_flac_redux/slakh_8bar_lp4hop2_knorm_iquant_nost_ts44
+dataset_class: DrumArrangeDataset
+inst_aug: False
+max_len: 1536
+include_ts_and_tempo: False
+min_drum_bars_in_tgt: 4
+opd_input: True
+
+# Trainer
+result_root: /data2/longshen/Datasets/slakh2100_flac_redux/m2m_results
+out_dir: slakh_8bar_quant_44/drum_arrange_4bar/direct_opd/ep3_lr5e-5_linear
+n_epoch: 3 # 20 # 50
+lr: 0.00005
+lr_scheduler: linear # linear | anneal | none
+bs: 8
+bs_test: 32
+loss_type: tgt_seq # full_seq | tgt_seq
+warmup_steps: 500
+weight_decay: 0.01
+val_check_interval: 0.25
+n_gen_val_per_batch: 2
+fast_dev_run: False # 5
+early_stop_patience: 8
+lr_anneal_patience: 4
+val_gen_every_n_steps: 100
+val_gen_n_samples: 20 # Doing generation for X samples in each validation loop
+
+# Model
+pt_ckpt: LongshenOu/m2m_pt
+tokenizer_fp: LongshenOu/m2m_ft
+lit_model_class: LitM2mDrum
+voice_control: True
+texture_control: False
+
+# Infer
+infer_exp_name: recon # recon | rand_inst
+infer_with: mini_valid
+infer_inp_fn: ${infer_with}.txt
+infer_out_fn: out_${infer_with}_${infer_exp_name}.txt
+eval_out_fn: eval_${infer_with}_${infer_exp_name}.txt
+
+# Reinst
+song_name: caihong
+model_name: drum_opd
+inst_set: drum
+reinst_exp_name: ${song_name}_${model_name}_${inst_set}_k${top_k}p${top_p}t${temp}n${no_repeat_token}
+hist_autoregressive: True
+top_k: 20
+top_p: 1.0
+temp: 1.0 
+no_repeat_token: 0

@@ -1,0 +1,374 @@
+{
+    "128": {
+        "instrument_type": "Drums",
+        "inst_type_id": "128"
+    },
+    "0": {
+        "instrument_type": "Acoustic Piano",
+        "inst_type_id": "0"
+    },
+    "1": {
+        "instrument_type": "Acoustic Piano",
+        "inst_type_id": "0"
+    },
+    "3": {
+        "instrument_type": "Acoustic Piano",
+        "inst_type_id": "0"
+    },
+    "6": {
+        "instrument_type": "Acoustic Piano",
+        "inst_type_id": "0"
+    },
+    "2": {
+        "instrument_type": "Electric Piano",
+        "inst_type_id": "2"
+    },
+    "4": {
+        "instrument_type": "Electric Piano",
+        "inst_type_id": "2"
+    },
+    "5": {
+        "instrument_type": "Electric Piano",
+        "inst_type_id": "2"
+    },
+    "7": {
+        "instrument_type": "Electric Piano",
+        "inst_type_id": "2"
+    },
+    "8": {
+        "instrument_type": "Chromatic Percussion",
+        "inst_type_id": "8"
+    },
+    "9": {
+        "instrument_type": "Chromatic Percussion",
+        "inst_type_id": "8"
+    },
+    "10": {
+        "instrument_type": "Chromatic Percussion",
+        "inst_type_id": "8"
+    },
+    "11": {
+        "instrument_type": "Chromatic Percussion",
+        "inst_type_id": "8"
+    },
+    "12": {
+        "instrument_type": "Chromatic Percussion",
+        "inst_type_id": "8"
+    },
+    "13": {
+        "instrument_type": "Chromatic Percussion",
+        "inst_type_id": "8"
+    },
+    "14": {
+        "instrument_type": "Chromatic Percussion",
+        "inst_type_id": "8"
+    },
+    "15": {
+        "instrument_type": "Chromatic Percussion",
+        "inst_type_id": "8"
+    },
+    "16": {
+        "instrument_type": "Organ",
+        "inst_type_id": "16"
+    },
+    "17": {
+        "instrument_type": "Organ",
+        "inst_type_id": "16"
+    },
+    "18": {
+        "instrument_type": "Organ",
+        "inst_type_id": "16"
+    },
+    "19": {
+        "instrument_type": "Organ",
+        "inst_type_id": "16"
+    },
+    "20": {
+        "instrument_type": "Organ",
+        "inst_type_id": "16"
+    },
+    "21": {
+        "instrument_type": "Organ",
+        "inst_type_id": "16"
+    },
+    "22": {
+        "instrument_type": "Organ",
+        "inst_type_id": "16"
+    },
+    "23": {
+        "instrument_type": "Organ",
+        "inst_type_id": "16"
+    },
+    "24": {
+        "instrument_type": "Acoustic Guitar",
+        "inst_type_id": "24"
+    },
+    "25": {
+        "instrument_type": "Acoustic Guitar",
+        "inst_type_id": "24"
+    },
+    "26": {
+        "instrument_type": "Clean Electric Guitar",
+        "inst_type_id": "26"
+    },
+    "27": {
+        "instrument_type": "Clean Electric Guitar",
+        "inst_type_id": "26"
+    },
+    "28": {
+        "instrument_type": "Clean Electric Guitar",
+        "inst_type_id": "26"
+    },
+    "31": {
+        "instrument_type": "Clean Electric Guitar",
+        "inst_type_id": "26"
+    },
+    "29": {
+        "instrument_type": "Distorted Electric Guitar",
+        "inst_type_id": "29"
+    },
+    "30": {
+        "instrument_type": "Distorted Electric Guitar",
+        "inst_type_id": "29"
+    },
+    "32": {
+        "instrument_type": "Acoustic Bass",
+        "inst_type_id": "32"
+    },
+    "33": {
+        "instrument_type": "Electric Bass",
+        "inst_type_id": "33"
+    },
+    "34": {
+        "instrument_type": "Electric Bass",
+        "inst_type_id": "33"
+    },
+    "35": {
+        "instrument_type": "Electric Bass",
+        "inst_type_id": "33"
+    },
+    "36": {
+        "instrument_type": "Electric Bass",
+        "inst_type_id": "33"
+    },
+    "37": {
+        "instrument_type": "Electric Bass",
+        "inst_type_id": "33"
+    },
+    "40": {
+        "instrument_type": "Violin",
+        "inst_type_id": "40"
+    },
+    "41": {
+        "instrument_type": "Viola",
+        "inst_type_id": "41"
+    },
+    "42": {
+        "instrument_type": "Cello",
+        "inst_type_id": "42"
+    },
+    "43": {
+        "instrument_type": "Contrabass",
+        "inst_type_id": "43"
+    },
+    "44": {
+        "instrument_type": "String Ensemble",
+        "inst_type_id": "44"
+    },
+    "45": {
+        "instrument_type": "String Ensemble",
+        "inst_type_id": "44"
+    },
+    "48": {
+        "instrument_type": "String Ensemble",
+        "inst_type_id": "44"
+    },
+    "49": {
+        "instrument_type": "String Ensemble",
+        "inst_type_id": "44"
+    },
+    "55": {
+        "instrument_type": "Orchestral Hit",
+        "inst_type_id": "55"
+    },
+    "47": {
+        "instrument_type": "Timpani",
+        "inst_type_id": "47"
+    },
+    "46": {
+        "instrument_type": "Orchestral Harp",
+        "inst_type_id": "46"
+    },
+    "50": {
+        "instrument_type": "Synth Strings",
+        "inst_type_id": "50"
+    },
+    "51": {
+        "instrument_type": "Synth Strings",
+        "inst_type_id": "50"
+    },
+    "52": {
+        "instrument_type": "Choir and Voice",
+        "inst_type_id": "52"
+    },
+    "53": {
+        "instrument_type": "Choir and Voice",
+        "inst_type_id": "52"
+    },
+    "54": {
+        "instrument_type": "Choir and Voice",
+        "inst_type_id": "52"
+    },
+    "56": {
+        "instrument_type": "Trumpet",
+        "inst_type_id": "56"
+    },
+    "59": {
+        "instrument_type": "Trumpet",
+        "inst_type_id": "56"
+    },
+    "57": {
+        "instrument_type": "Trombone",
+        "inst_type_id": "57"
+    },
+    "58": {
+        "instrument_type": "Tuba",
+        "inst_type_id": "58"
+    },
+    "60": {
+        "instrument_type": "French Horn",
+        "inst_type_id": "60"
+    },
+    "61": {
+        "instrument_type": "Brass Section",
+        "inst_type_id": "61"
+    },
+    "64": {
+        "instrument_type": "Soprano/Alto Sax",
+        "inst_type_id": "64"
+    },
+    "65": {
+        "instrument_type": "Soprano/Alto Sax",
+        "inst_type_id": "64"
+    },
+    "66": {
+        "instrument_type": "Tenor Sax",
+        "inst_type_id": "66"
+    },
+    "67": {
+        "instrument_type": "Baritone Sax",
+        "inst_type_id": "67"
+    },
+    "68": {
+        "instrument_type": "Oboe",
+        "inst_type_id": "68"
+    },
+    "69": {
+        "instrument_type": "English Horn",
+        "inst_type_id": "69"
+    },
+    "70": {
+        "instrument_type": "Bassoon",
+        "inst_type_id": "70"
+    },
+    "71": {
+        "instrument_type": "Clarinet",
+        "inst_type_id": "31"
+    },
+    "72": {
+        "instrument_type": "Pipe",
+        "inst_type_id": "32"
+    },
+    "73": {
+        "instrument_type": "Pipe",
+        "inst_type_id": "32"
+    },
+    "74": {
+        "instrument_type": "Pipe",
+        "inst_type_id": "32"
+    },
+    "75": {
+        "instrument_type": "Pipe",
+        "inst_type_id": "32"
+    },
+    "76": {
+        "instrument_type": "Pipe",
+        "inst_type_id": "32"
+    },
+    "77": {
+        "instrument_type": "Pipe",
+        "inst_type_id": "32"
+    },
+    "78": {
+        "instrument_type": "Pipe",
+        "inst_type_id": "32"
+    },
+    "79": {
+        "instrument_type": "Pipe",
+        "inst_type_id": "32"
+    },
+    "80": {
+        "instrument_type": "Synth Lead",
+        "inst_type_id": "33"
+    },
+    "81": {
+        "instrument_type": "Synth Lead",
+        "inst_type_id": "33"
+    },
+    "82": {
+        "instrument_type": "Synth Lead",
+        "inst_type_id": "33"
+    },
+    "83": {
+        "instrument_type": "Synth Lead",
+        "inst_type_id": "33"
+    },
+    "84": {
+        "instrument_type": "Synth Lead",
+        "inst_type_id": "33"
+    },
+    "85": {
+        "instrument_type": "Synth Lead",
+        "inst_type_id": "33"
+    },
+    "86": {
+        "instrument_type": "Synth Lead",
+        "inst_type_id": "33"
+    },
+    "87": {
+        "instrument_type": "Synth Lead",
+        "inst_type_id": "33"
+    },
+    "88": {
+        "instrument_type": "Synth Pad",
+        "inst_type_id": "34"
+    },
+    "89": {
+        "instrument_type": "Synth Pad",
+        "inst_type_id": "34"
+    },
+    "90": {
+        "instrument_type": "Synth Pad",
+        "inst_type_id": "34"
+    },
+    "91": {
+        "instrument_type": "Synth Pad",
+        "inst_type_id": "34"
+    },
+    "92": {
+        "instrument_type": "Synth Pad",
+        "inst_type_id": "34"
+    },
+    "93": {
+        "instrument_type": "Synth Pad",
+        "inst_type_id": "34"
+    },
+    "94": {
+        "instrument_type": "Synth Pad",
+        "inst_type_id": "34"
+    },
+    "95": {
+        "instrument_type": "Synth Pad",
+        "inst_type_id": "34"
+    }
+}

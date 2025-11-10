@@ -1,0 +1,14 @@
+MacBookAir: /Users/sonata/Code/StyleTrans/datasets/local/dataset.hdf5
+smc-gpu2: /data1/longshen/Datasets/slakh2100_flac_redux/dataset.hdf5
+smc-gpu3: /data2/longshen/Datasets/slakh2100_flac_redux/dataset.hdf5
+smc-gpu4: /data1/longshen/Datasets/slakh2100_flac_redux/dataset.hdf5
+smc-gpu5: /data2/longshen/Datasets/slakh2100_flac_redux/dataset.hdf5
+smc-gpu6: /data2/longshen/Datasets/slakh2100_flac_redux/dataset.hdf5
+
+dir:
+  MacBookAir: /Users/sonata/Code/StyleTrans/datasets/local/slakh_mini
+  smc-gpu2: /data1/longshen/Datasets/slakh2100_flac_redux
+  smc-gpu3: /data2/longshen/Datasets/slakh2100_flac_redux
+  smc-gpu4: /data1/longshen/Datasets/slakh2100_flac_redux
+  smc-gpu5: /data2/longshen/Datasets/slakh2100_flac_redux
+  smc-gpu6: /data2/longshen/Datasets/slakh2100_flac_redux

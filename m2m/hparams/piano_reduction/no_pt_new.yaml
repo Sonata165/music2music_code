@@ -1,0 +1,61 @@
+task: piano_arrange
+
+# Data
+data_root: /data2/longshen/Datasets/slakh2100_flac_redux/metadata/segment_dataset_1bar_norm_withhist.json
+dataset_class: PianoReducDataset
+content_aug: True
+inst_aug: False
+max_len: 768
+include_ts_and_tempo: False
+dur_input: True
+piano_min_rel_range: 0.4
+num_workers: 8
+
+# Trainer
+result_root: /data2/longshen/musecoco_data/results_new
+out_dir: ${task}/bs${bs}_lr${lr}_ep${n_epoch}_nopt
+
+n_epoch: 10 # 20 # 50
+lr: 0.0001
+lr_scheduler: linear # linear | anneal | none
+bs: 16
+bs_test: 32
+loss_type: tgt_seq # full_seq | tgt_seq
+warmup_steps: 0
+weight_decay: 0.01
+val_check_interval: 0.25
+n_gen_val_per_batch: 2
+fast_dev_run: False # 5
+early_stop_patience: 8
+lr_anneal_patience: 4
+val_gen_every_n_steps: 100 # Seems not been used
+val_gen_n_samples: 5 # Doing generation for X samples in each validation loop
+
+# Model
+pt_ckpt: LongshenOu/m2m_pt
+tokenizer_fp: LongshenOu/m2m_ft
+lit_model_class: LitM2mPianoReduction
+voice_control: True
+texture_control: False
+random_init: True
+
+# Infer
+infer_exp_name: recon # recon | rand_inst
+infer_with: mini_valid
+infer_inp_fn: ${infer_with}.txt
+infer_out_fn: out_${infer_with}_${infer_exp_name}.txt
+eval_out_fn: eval_${infer_with}_${infer_exp_name}.txt
+
+# Reinst
+reinst_group: questionnaire
+song_name: caihong
+inst_set: piano
+model_name: reduc_direct_rg0.4
+replace_inst: ['i-0'] # Piano reduction
+hist_autoregressive: True
+reinst_exp_name: ${song_name}_${model_name}_${inst_set}_k${top_k}p${top_p}t${temp}n${no_repeat_token}
+
+top_k: 10
+top_p: 1.0
+temp: 1.0
+no_repeat_token: 0 # Set to 0 to disable no_repeat_token

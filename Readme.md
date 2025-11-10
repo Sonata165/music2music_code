@@ -1,8 +1,6 @@
-Being updated ... 
-
 # Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization
 
-This is the official project repository and code implementation of the NeurIPS 2025 paper *Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization*. 
+This is the code for experiments in the paper *Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization*. 
 
 ## Structure
 
@@ -107,6 +105,12 @@ PPL = perplexity.
 
     # Dependencies
     pip install -r requirements.txt   
+    
+    git clone https://github.com/Sonata165/REMI-z.git
+    cd REMI-z
+    pip install -r Requirements.txt
+    pip install -e .
+
 
 ## Dataset preparation
 
@@ -119,7 +123,7 @@ PPL = perplexity.
     python segment_data.py
 
 ## Training and Testing
-Use below command for pre-train your own symbolic music generator (maybe not necessary because we will release the pre-trained checkpoint as well): 
+Use below command for pre-train your own symbolic music generator: 
 
     python pretrain.py
 Use below command to execute fine-tuning:
@@ -153,13 +157,15 @@ In particular, to obtain the results in the paper
     python lightning_train.py hparams/drum_arrange/direct_opd.yaml
 
 ## Inference
-Use below command to arrange existing songs with new instrument set:
+To inference with models trained by yourself, use below command to arrange existing songs with new instrument set:
 
     python reinst.py [path/to/hparam]
 
 Use below command to arrange a drum track for a song:
 
     python drum_arrange.py [path/to/hparam]
+
+To directly use our pretrained model for inference, see tutorial.ipynb for details.
 
 
 ## Mapping from token to represented value
