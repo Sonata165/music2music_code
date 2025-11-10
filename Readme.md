@@ -1,6 +1,8 @@
 # Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization
 
-This is the code for experiments in the paper *Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization*. 
+This is the code for experiments in the paper [*Unifying Symbolic Music Arrangement: Track-Aware Reconstruction and Structured Tokenization*](https://arxiv.org/abs/2408.15176). 
+
+[ [Paper](https://arxiv.org/abs/2408.15176) | [REMI-z MIDI Tookit](https://github.com/Sonata165/REMI-z) | [Author](https://www.oulongshen.xyz/) ]
 
 ## Structure
 
